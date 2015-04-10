@@ -1,10 +1,3 @@
-<div class="nav">
-### Menu
-
-[<span class="hidden">Close</span>](#)
-*   [Home](http://blog.differential.com/)
-
-[Subscribe](/rss/)</div><div class="site-wrapper"><header class="main-header post-head no-cover"><nav class="main-nav  clearfix">[![Blog Logo](/content/images/2015/02/logo-sq-orange.jpg)](http://blog.differential.com)[<span class="burger">☰</span><span class="word">Menu</span>](#)</nav></header><main class="content" role="main"><article class="post"><header class="post-header">
 # Serve Ruby on Rails, PHP, and Node with Pow (POW!)
 
 <section class="post-meta"><time class="post-date" datetime="2014-06-05">05 June 2014</time></section></header><section class="post-content">
