@@ -36,6 +36,20 @@ While Pow serves up Rack apps with a custom server, our old friend Apache is sti
        <span class="hljs-keyword">VirtualDocumentRoot</span> <span class="hljs-string">"/path/to/projects/%1"</span>
     <span class="hljs-tag">&lt;/VirtualHost&gt;</span>  
     </pre>
+    
+#### with apache 2.4 
+
+    <VirtualHost 127.0.0.1:81>
+       ServerName any.dev
+       ServerAlias *.dev
+       <Directory "/path/to/projects">
+           Order allow,deny
+           Allow from all
+           Require all granted
+       </Directory>
+       VirtualDocumentRoot "/path/to/projects/%1"
+    </VirtualHost>
+
 
 Thanks to Pow proxying and `VirtualDocumentRoot`, simply creating a directory at `/path/to/projects/phpapp` should immediately be available at `http://phpapp.dev`
 
